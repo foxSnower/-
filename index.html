@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,height=device-height,user-scalable=no,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0" />
+    <title>两列右侧自适应布局</title>
+    <style>
+    	*{
+    		padding: 0;
+    		margin: 0;
+    	}
+    	p{
+    		padding: 10px;
+    		height:150px;
+    	}
+    	.m-side-l{
+    		position: relative;
+    		width:190px;
+    		float: left;
+    		margin-right:-190px;
+    		background-color: #f00;
+    	}
+    	.m-side-r{
+    		width:100%;
+    		float: right;
+    		background-color: #ccc;
+    	}
+    	.f-cb:after{
+
+    	}
+    	.f-marside-l{
+    		margin-left: 200px;
+    	}
+    </style>
+</head>
+
+<body>
+<div class="m-section">
+	<div class="m-side-l">
+	 	
+	 		<p>失望</p>
+	 	
+	</div>
+	<div class="m-side-r">
+	<div class="f-marside-l">
+		<p>开心</p>
+		</div>
+	</div>
+</div>
+</body>
+
+</html>
